@@ -1,0 +1,97 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "console.log(\"Hello World!\");"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "Hello World!",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "function p(msg)\n{\n    console.log(msg);\n}"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "p(Number.MAX_VALUE);"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "1.7976931348623157e+308",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "let j = 0;\n\nfor (let i = 0; j++, i < 10; i++)\n{\n    p(\"i:\" + i.toString() + \", j:\" + j);\n}"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "i:0, j:1",
+                                "i:1, j:2",
+                                "i:2, j:3",
+                                "i:3, j:4",
+                                "i:4, j:5",
+                                "i:5, j:6",
+                                "i:6, j:7",
+                                "i:7, j:8",
+                                "i:8, j:9",
+                                "i:9, j:10",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "var a = 'Pippo+1';\nvar b = \"pluto+1\";\n\np(`a: ${a}`);\np(b);"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "a: Pippo+1",
+                                "pluto+1",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
